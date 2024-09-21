@@ -4077,13 +4077,6 @@ input[disabled] {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
 }
-@media (min-width: 300px) and (max-width: 590px) {
-    .box-modal-callback {
-        width: calc(100% - 60px);
-        max-width: 330px;
-        padding: 20px;
-    }
-}
 .box-modal-callback .block-title {
     position: relative;
     display: block;
@@ -6513,4 +6506,11 @@ body.compensate-for-scrollbar {
 .calculated {
     font-size: 35px;
     font-weight: 600;
+}
+@media (min-width: 300px) and (max-width: 590px) {
+    .box-modal-callback, .box-modal-calculator {
+        width: calc(100% - 60px);
+        max-width: 330px;
+        padding: 20px;
+    }
 }
