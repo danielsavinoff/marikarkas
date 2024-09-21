@@ -1060,6 +1060,7 @@ header .sticks .social .icon-button {
 .tab {
     height: 41px;
     border: none;
+    color: var(--text-color);
     font-weight: 600;
     font-size: 15px;
     transition: box-shadow 0.2s;
